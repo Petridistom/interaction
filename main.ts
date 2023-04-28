@@ -6,4 +6,4 @@ const serveFiles = (req: Request) => staticFiles('public')({
     respondWith: (r: Response) => r 
 })
 
-serve((req) => serveFiles(req), { addr: ':80' });
+serve((req) => serveFiles(req), { addr: ':8000' });
